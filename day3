@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int X,Y,T;
+	cin>>T;
+	for(;T>=1;T--)
+	{
+	    cin>>X>>Y;
+	    if(X>Y)
+	    {
+	    cout<<"New Phone\n";
+	    }
+	    else if(X<Y)
+	    {
+	    cout<<"Repair\n";
+	    }
+	    else 
+	    {
+	    cout<<"Any\n";
+	    }
+	}
+	return 0;
+}
